@@ -7,13 +7,13 @@ body {
 
 /* HERO */
 .hero {
-    background-image: url("hero.jpg");
+    background-image: url("Photos/hero.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    height: 100vh; /* full screen height */
-    color: white;
+    width: 827px;
+    height: 375px;
 
     display: flex;
     flex-direction: column;
