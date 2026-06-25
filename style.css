@@ -20,7 +20,7 @@ body {
 
     justify-content: center;
     align-items: flex-start;
-    text-align: left;
+    text-align: center;
     padding-left: 120px;        /* pushes content inward */
 }
 
