@@ -82,3 +82,10 @@ footer {
     background: #1e3c72;
     color: white;
 }
+
+.profile-pic {
+    width: 150px;      /* display size */
+    height: 150px;
+    object-fit: cover; /* prevents distortion */
+    border-radius: 50%; /* optional circle */
+}
