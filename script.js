@@ -1,3 +1,1 @@
-function showMessage() {
-    alert("Thanks for visiting my website!");
-}
+console.log("Resume website loaded successfully!");

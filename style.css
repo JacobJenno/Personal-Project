@@ -1,72 +1,84 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    background: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
     color: #333;
 }
 
-header {
-    background: #0078D7;
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white;
     text-align: center;
-    padding: 40px;
+    padding: 80px 20px;
 }
 
-nav {
-    background: #005fa3;
-    display: flex;
-    justify-content: center;
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 15px;
 }
 
-nav a {
-    color: white;
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #2a5298;
+    border-radius: 8px;
     text-decoration: none;
-    padding: 15px 20px;
+    font-weight: bold;
 }
 
-nav a:hover {
-    background: #00457a;
+.btn:hover {
+    background: #ddd;
 }
 
-main {
+/* SECTIONS */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.dark {
+    background: #e9eef7;
+}
+
+/* SKILLS GRID */
+.grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 40px;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 .card {
     background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
-    text-align: center;
-    max-width: 500px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-button {
-    margin-top: 20px;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    background: #0078D7;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+/* PROJECTS */
+.project {
+    background: white;
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
 }
 
-button:hover {
-    background: #005fa3;
-}
-
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
-    background: #222;
+    background: #1e3c72;
     color: white;
-    margin-top: 40px;
 }
