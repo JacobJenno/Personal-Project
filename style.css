@@ -18,8 +18,9 @@ body {
     display: flex;
     flex-direction: column;
 
-    justify-content: left;
+    justify-content: center;
     align-items: flex-start;
+
     text-align: center;
     padding-left: 120px;
 }
