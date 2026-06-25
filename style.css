@@ -19,9 +19,9 @@ body {
     flex-direction: column;
 
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
-    padding-left: 120px;        /* pushes content inward */
+    padding-left: 120px;
 }
 
 .profile-pic {
