@@ -15,12 +15,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
     align-items: center;
+
+    gap: 15px;
+
     text-align: center;
     padding: 50px 50px;
     color: white;
+}
 
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;  /* controls spacing between h1, p, button */
+
+    align-items: center;
 }
 
 .profile-pic {
