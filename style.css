@@ -12,13 +12,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 
-    width: 100%;
-    min-height: 60vh;
+    width: 1535px;
+    height: 914px;
 
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
     text-align: center;
     padding-left: 120px;
