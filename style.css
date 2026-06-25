@@ -26,12 +26,12 @@ body {
 
 .hero-content {
     background: rgba(0, 0, 0, 0.5);
+    background-size: 100% auto;
     padding: 20px 30px;
 
     display: flex;
     flex-direction: column;
     gap: 1px;  /* controls spacing between h1, p, button */
-
     align-items: center;
 }
 
