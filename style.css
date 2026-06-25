@@ -18,7 +18,7 @@ body {
     gap: 15px;
     align-items: center;
     text-align: center;
-
+    padding: 50px 50px;
 }
 
 .profile-pic {
