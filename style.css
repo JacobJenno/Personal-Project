@@ -12,7 +12,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 
-    height: 827px; /* full screen height */
+    height: 827px;
 
     display: flex;
     flex-direction: column;
